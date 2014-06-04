@@ -1,0 +1,106 @@
+body, div, p, h1, h2, h3, h4, img, span, table
+{
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+body
+{
+  width: 904px;
+  height: 100%;
+  background-color: #556b2f;
+  margin: 0px auto;
+  padding: 0px;
+  border: 0px;
+  font-family: verdana;
+  color: Khaki;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+div#game-content
+{
+  width: 900px;
+  height: 450px;
+  background-color: #BDB76B;
+  margin: 80px auto 0px;
+  border: 2px solid #DBB;
+  border-radius: 25px;
+}
+div.game-body
+{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 850px;
+  height: 200px;
+  display: block;
+  position: relative;
+  left: 25px;
+}
+div.wall
+{
+  width: 850px;
+  height: 140px;
+  margin: 0px;
+  padding-top: 50px;
+  background-color: transparent;
+  position: relative;
+}
+div.man
+{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+}
+div.man img
+{
+  width: 50px;
+  height: 50px;
+}
+div.ground
+{
+  margin: 0px auto;
+  height: 10px;
+  width: 850px;
+  background-color: #000;
+}
+div#score
+{
+  display: block;
+  position: fixed;
+  top: 30px;
+  margin: auto;
+  width: 800px;
+  text-align: right;
+  font-size: 28px;
+  visibility: hidden;
+}
+div#controls
+{
+  width: 500px;
+  display: block;
+  margin: 30px auto 0px;
+  font-size: 28px;
+}
+div.ctrl-btn
+{
+  display: inline-block;
+  width: 150px;
+  background-color: #6B8E23;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+}
+div#st
+{
+  float: left;
+}
+div#reset
+{
+  float: right;
+}
