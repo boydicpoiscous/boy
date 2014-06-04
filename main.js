@@ -38,7 +38,7 @@ function createWall()
     if(gameState == "start")
     {
       var rWall = Math.random();
-      if (rWall < 0.3)
+      if (rWall < 1)
       {
         var rWhere = Math.random();
         if(rWhere < 0.5)
@@ -56,7 +56,7 @@ function createWall()
           wallNumDown++;
         }
       }
-      window.setTimeout(arguments.callee, 300);
+      window.setTimeout(arguments.callee, 600);
     }
   })();
 }
