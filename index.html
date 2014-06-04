@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tick Up</title>
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <script src="./main.js"></script>
+  </head>
+  <body unselectable="on" onselectstart="return false;" onkeypress="takeoff(event)">
+    <div id="score">0&nbsp;&nbsp;s</div>
+    <div id="game-content">
+      <div class="game-body" id="game-up">
+        <div class="wall" id="wall-up"></div>
+        <div class="man" id="man-up" style="bottom: 10px;">
+          <img id="man-img-up" src="./media/mans.png" alt="man" />
+        </div>
+        <div class="ground" id="ground-up"></div>
+      </div>
+      <div class="game-body" id="game-down">
+        <div class="wall" id="wall-down"></div>
+        <div class="man" id="man-down" style="bottom: 10px;">
+          <img id="man-img-down" src="./media/mans.png" alt="man" />
+        </div>
+        <div class="ground" id="ground-down"></div>
+      </div>
+    </div>
+    <div id="controls">
+      <div class="ctrl-btn" id="st" onmousedown="startGame()">Start</div>
+      <div class="ctrl-btn" id="reset" onmousedown="resetGame()">Reset</div>
+    </div>
+  </body>
+</html>
